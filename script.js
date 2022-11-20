@@ -159,7 +159,12 @@ const validateWord = async () => {
   ).then((response) => {
     if (response.status == "404") {
       console.clear();
-      alert("Please Enter Valid Word");
+//       alert("Please Enter Valid Word");
+      Swal.fire(
+  'คำเตือน !',
+  'กรุณาพิมพ์คำที่มีความหมาย',
+  'question'
+)
       failed = true;
     }
   });
