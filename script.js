@@ -164,7 +164,7 @@ const validateWord = async () => {
   'คำเตือน !',
   'กรุณาพิมพ์คำที่มีความหมาย',
   'question'
-)
+);
       failed = true;
     }
   });
